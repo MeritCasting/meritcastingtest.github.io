@@ -1,4 +1,4 @@
-# Blazor Github Pages
+# Merit Casting
 
 [![Actions Status](https://github.com/meritcasting/meritcasting.github.io/workflows/gh-pages/badge.svg)](https://github.com/meritcasting/meritcasting.github.io/actions)
 
