@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28902.138
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9E43E183-F292-43D7-94E3-E50F1C2169D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D36BF0D4-44EA-436A-A0D1-5F0826DB145D}"
+	ProjectSection(SolutionItems) = preProject
+		azure-pipelines.yml = azure-pipelines.yml
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeritCasting.Shared", "MeritCasting.Shared\MeritCasting.Shared.csproj", "{BC7E3FC3-A98C-4B50-A814-4EEB0E33087C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "corsserver", "src\corsserver\corsserver.csproj", "{CA88CAC0-BF23-40B3-A1BB-329110C3D3E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeritCasting", "src\MeritCasting\MeritCasting.csproj", "{5E321736-3554-4197-9B6A-523889C7FCD2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC7E3FC3-A98C-4B50-A814-4EEB0E33087C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC7E3FC3-A98C-4B50-A814-4EEB0E33087C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC7E3FC3-A98C-4B50-A814-4EEB0E33087C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC7E3FC3-A98C-4B50-A814-4EEB0E33087C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA88CAC0-BF23-40B3-A1BB-329110C3D3E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA88CAC0-BF23-40B3-A1BB-329110C3D3E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA88CAC0-BF23-40B3-A1BB-329110C3D3E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA88CAC0-BF23-40B3-A1BB-329110C3D3E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E321736-3554-4197-9B6A-523889C7FCD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E321736-3554-4197-9B6A-523889C7FCD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E321736-3554-4197-9B6A-523889C7FCD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E321736-3554-4197-9B6A-523889C7FCD2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BC7E3FC3-A98C-4B50-A814-4EEB0E33087C} = {9E43E183-F292-43D7-94E3-E50F1C2169D1}
+		{CA88CAC0-BF23-40B3-A1BB-329110C3D3E6} = {9E43E183-F292-43D7-94E3-E50F1C2169D1}
+		{5E321736-3554-4197-9B6A-523889C7FCD2} = {9E43E183-F292-43D7-94E3-E50F1C2169D1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49C7DA16-56FD-444A-B6BA-BAB13F749E0C}
+	EndGlobalSection
+EndGlobal
