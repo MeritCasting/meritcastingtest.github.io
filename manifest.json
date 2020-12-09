@@ -1,0 +1,16 @@
+{
+  "name": "Merit Casting",
+  "short_name": "Merit Casting",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#03173d",
+  "scope":  "https://facebook.com",
+  "icons": [
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
